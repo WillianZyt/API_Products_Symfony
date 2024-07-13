@@ -139,6 +139,7 @@ class CategoryController extends AbstractController
         ]);
     }
 
+    // Teste
     // Mostrar todos os produtos de uma categoria
     #[Route('/{id}/products', name: 'app_category_products', methods: ['GET'])]
     #[AT\Get( summary: 'Mostrar todos os produtos de uma categoria')]
